@@ -5,7 +5,7 @@ var data = $.getJSON(dataUrl);
 data.done( function( msg ) {
   $.each(msg.item, function(i,item){
     $("#contain").html();
-    $("#contain").oppend($("<img/>").attr("scr", item.media.m));
+    $("#contain").oppend($("<img/>").attr("scr", items.media.m));
   });
 }); 
 data.fail( function( msg ) {
