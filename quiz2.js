@@ -1,4 +1,3 @@
-
 var tags = "李知恩";
 var dataUrl = "https://api.flickr.com/services/feeds/photos\_public.gne?tags=" + tags
 +"&tagmode=any&format=json&per_page=400&jsoncallback=?";
